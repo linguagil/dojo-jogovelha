@@ -1,0 +1,231 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		123327EA142378BB0022598D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123327E9142378BB0022598D /* Foundation.framework */; };
+		123327ED142378BB0022598D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 123327EC142378BB0022598D /* main.m */; };
+		123327F1142378BB0022598D /* JogoVelha.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 123327F0142378BB0022598D /* JogoVelha.1 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		123327E3142378BA0022598D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+				123327F1142378BB0022598D /* JogoVelha.1 in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		123327E5142378BA0022598D /* JogoVelha */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JogoVelha; sourceTree = BUILT_PRODUCTS_DIR; };
+		123327E9142378BB0022598D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		123327EC142378BB0022598D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		123327EF142378BB0022598D /* JogoVelha-Prefix.pch */ = {isa = PBXFileReference; path = "JogoVelha-Prefix.pch"; sourceTree = "<group>"; };
+		123327F0142378BB0022598D /* JogoVelha.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = JogoVelha.1; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		123327E2142378BA0022598D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123327EA142378BB0022598D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		123327DA142378BA0022598D = {
+			isa = PBXGroup;
+			children = (
+				123327EB142378BB0022598D /* JogoVelha */,
+				123327E8142378BA0022598D /* Frameworks */,
+				123327E6142378BA0022598D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		123327E6142378BA0022598D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				123327E5142378BA0022598D /* JogoVelha */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		123327E8142378BA0022598D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				123327E9142378BB0022598D /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		123327EB142378BB0022598D /* JogoVelha */ = {
+			isa = PBXGroup;
+			children = (
+				123327EC142378BB0022598D /* main.m */,
+				123327F0142378BB0022598D /* JogoVelha.1 */,
+				123327EE142378BB0022598D /* Supporting Files */,
+			);
+			path = JogoVelha;
+			sourceTree = "<group>";
+		};
+		123327EE142378BB0022598D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				123327EF142378BB0022598D /* JogoVelha-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		123327E4142378BA0022598D /* JogoVelha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 123327F4142378BB0022598D /* Build configuration list for PBXNativeTarget "JogoVelha" */;
+			buildPhases = (
+				123327E1142378BA0022598D /* Sources */,
+				123327E2142378BA0022598D /* Frameworks */,
+				123327E3142378BA0022598D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JogoVelha;
+			productName = JogoVelha;
+			productReference = 123327E5142378BA0022598D /* JogoVelha */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		123327DC142378BA0022598D /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 123327DF142378BA0022598D /* Build configuration list for PBXProject "JogoVelha" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 123327DA142378BA0022598D;
+			productRefGroup = 123327E6142378BA0022598D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				123327E4142378BA0022598D /* JogoVelha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		123327E1142378BA0022598D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123327ED142378BB0022598D /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		123327F2142378BB0022598D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		123327F3142378BB0022598D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		123327F5142378BB0022598D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JogoVelha/JogoVelha-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		123327F6142378BB0022598D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JogoVelha/JogoVelha-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		123327DF142378BA0022598D /* Build configuration list for PBXProject "JogoVelha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123327F2142378BB0022598D /* Debug */,
+				123327F3142378BB0022598D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		123327F4142378BB0022598D /* Build configuration list for PBXNativeTarget "JogoVelha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				123327F5142378BB0022598D /* Debug */,
+				123327F6142378BB0022598D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 123327DC142378BA0022598D /* Project object */;
+}
