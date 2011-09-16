@@ -14,6 +14,9 @@
 {
     self = [super init];
     if (self) {
+        for (int i=0; i<9; i++) {
+            casas[i]=FALSE;
+        }
         // Initialization code here.
     }
     
@@ -24,8 +27,10 @@
 {
     if (casas[casa-1])
         return false;
-    else
+    else{
         casas[casa-1] = true;
+        return true;
+    }
 }
 
 -(BOOL)casaTaVazia:(int)casa
