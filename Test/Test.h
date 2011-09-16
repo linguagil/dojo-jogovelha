@@ -7,8 +7,11 @@
 //
 
 #import <SenTestingKit/SenTestingKit.h>
+#import "Tabuleiro.h"
 
-@interface Test : SenTestCase
+@interface Test : SenTestCase {
+    Tabuleiro *tabuleiro;
+}
 
 
 - (void)testVerificarSeTabuleiroIniciaVazio;
@@ -16,7 +19,7 @@
 //- (void)testFalharAoMarcarCasaInexistente;
 - (void)testMarcarCasaVaziaComSucesso;
 //
-//- (void)testFalharAoMarcarCasaRepetida;
+- (void)testFalharAoMarcarCasaRepetida;
 //
 //- (void)testAlternanciaAutomaticaDeJogador;
 //

@@ -14,14 +14,14 @@
 - (void)setUp
 {
     [super setUp];
-    
+    tabuleiro = [[Tabuleiro alloc] init];
     // Set-up code here.
 }
 
 - (void)tearDown
 {
     // Tear-down code here.
-    
+    [tabuleiro release];
     [super tearDown];
 }
 
@@ -34,20 +34,25 @@
 
 - (void)testMarcarCasaVaziaComSucesso
 {
-    Tabuleiro *tabuleiro = [[Tabuleiro alloc] init];
+//    Tabuleiro *tabuleiro = [[Tabuleiro alloc] init];
     BOOL resultado = [tabuleiro jogada: 1];
     STAssertTrue(resultado, nil);
 }
 
 - (void)testVerificarSeTabuleiroIniciaVazio
 {
-    Tabuleiro *tabuleiro = [[Tabuleiro alloc] init];
+
     
     for (int i=1; i < 10; i++) {
         BOOL resultado = [tabuleiro casaTaVazia: i];
         NSString *msg = [NSString stringWithFormat:@"casa %i",i];
         STAssertTrue(resultado, msg);
     }
+}
+
+- (void)testFalharAoMarcarCasaRepetida
+{
+    
 }
 
 @end
