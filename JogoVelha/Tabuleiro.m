@@ -25,4 +25,9 @@
     return true;
 }
 
+-(BOOL)casaTaVazia:(int)casa
+{
+    return true;
+}
+
 @end

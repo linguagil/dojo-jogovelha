@@ -12,4 +12,6 @@
 
 - (BOOL)jogada: (int)casa;
 
+- (BOOL)casaTaVazia: (int)casa;
+
 @end

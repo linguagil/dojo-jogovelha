@@ -43,7 +43,10 @@
 {
     Tabuleiro *tabuleiro = [[Tabuleiro alloc] init];
     
-    
+    for (int i=1; i < 10; i++) {
+        BOOL resultado = [tabuleiro casaTaVazia: i];
+        STAssertTrue(resultado, nil);
+    }
 }
 
 @end
