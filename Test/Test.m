@@ -45,7 +45,8 @@
     
     for (int i=1; i < 10; i++) {
         BOOL resultado = [tabuleiro casaTaVazia: i];
-        STAssertTrue(resultado, nil);
+        NSString *msg = [NSString stringWithFormat:@"casa %i",i];
+        STAssertTrue(resultado, msg);
     }
 }
 
