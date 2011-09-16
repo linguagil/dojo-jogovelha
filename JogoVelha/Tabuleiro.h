@@ -9,8 +9,9 @@
 #import <Foundation/Foundation.h>
 
 @interface Tabuleiro : NSObject{
-    BOOL casas[9];
+   // BOOL casas[9];
 
+    NSArray *casas;
 }
 
 - (BOOL)jogada: (int)casa;

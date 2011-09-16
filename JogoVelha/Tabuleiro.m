@@ -14,9 +14,11 @@
 {
     self = [super init];
     if (self) {
-        for (int i=0; i<9; i++) {
-            casas[i]=FALSE;
-        }
+        casas = [NSArray arrayWithObjects:false count:9];
+        
+//        for (int i=0; i<9; i++) {
+//            casas[i]=false;
+//        }
         // Initialization code here.
     }
     
@@ -25,10 +27,10 @@
 
 -(BOOL)jogada:(int)casa
 {
-    if (casas[casa-1])
+    if ([casas objectAtIndex:casa-1])
         return false;
     else{
-        casas[casa-1] = true;
+        [casas  = true;
         return true;
     }
 }
