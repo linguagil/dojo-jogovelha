@@ -52,7 +52,7 @@
 
 - (void)testFalharAoMarcarCasaRepetida
 {
-    
+    [tabuleiro jogada:2];
+    STAssertFalse([tabuleiro jogada:2],nil);
 }
-
 @end
