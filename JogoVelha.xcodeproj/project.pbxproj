@@ -10,6 +10,11 @@
 		123327EA142378BB0022598D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123327E9142378BB0022598D /* Foundation.framework */; };
 		123327ED142378BB0022598D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 123327EC142378BB0022598D /* main.m */; };
 		123327F1142378BB0022598D /* JogoVelha.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 123327F0142378BB0022598D /* JogoVelha.1 */; };
+		123327FE142379E70022598D /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123327FD142379E70022598D /* SenTestingKit.framework */; };
+		12332800142379E70022598D /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 123327FF142379E70022598D /* Cocoa.framework */; };
+		1233280A142379E70022598D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 12332808142379E70022598D /* InfoPlist.strings */; };
+		1233280C142379E70022598D /* Test.h in Resources */ = {isa = PBXBuildFile; fileRef = 1233280B142379E70022598D /* Test.h */; };
+		1233280E142379E70022598D /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 1233280D142379E70022598D /* Test.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,8 +34,19 @@
 		123327E5142378BA0022598D /* JogoVelha */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = JogoVelha; sourceTree = BUILT_PRODUCTS_DIR; };
 		123327E9142378BB0022598D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		123327EC142378BB0022598D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		123327EF142378BB0022598D /* JogoVelha-Prefix.pch */ = {isa = PBXFileReference; path = "JogoVelha-Prefix.pch"; sourceTree = "<group>"; };
+		123327EF142378BB0022598D /* JogoVelha-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JogoVelha-Prefix.pch"; sourceTree = "<group>"; };
 		123327F0142378BB0022598D /* JogoVelha.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = JogoVelha.1; sourceTree = "<group>"; };
+		123327FC142379E70022598D /* Test.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		123327FD142379E70022598D /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		123327FF142379E70022598D /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = Library/Frameworks/Cocoa.framework; sourceTree = DEVELOPER_DIR; };
+		12332802142379E70022598D /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		12332803142379E70022598D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		12332804142379E70022598D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		12332807142379E70022598D /* Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
+		12332809142379E70022598D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		1233280B142379E70022598D /* Test.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Test.h; sourceTree = "<group>"; };
+		1233280D142379E70022598D /* Test.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Test.m; sourceTree = "<group>"; };
+		1233280F142379E70022598D /* Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Test-Prefix.pch"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +58,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		123327F8142379E60022598D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				123327FE142379E70022598D /* SenTestingKit.framework in Frameworks */,
+				12332800142379E70022598D /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -49,6 +74,7 @@
 			isa = PBXGroup;
 			children = (
 				123327EB142378BB0022598D /* JogoVelha */,
+				12332805142379E70022598D /* Test */,
 				123327E8142378BA0022598D /* Frameworks */,
 				123327E6142378BA0022598D /* Products */,
 			);
@@ -58,6 +84,7 @@
 			isa = PBXGroup;
 			children = (
 				123327E5142378BA0022598D /* JogoVelha */,
+				123327FC142379E70022598D /* Test.octest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -66,6 +93,9 @@
 			isa = PBXGroup;
 			children = (
 				123327E9142378BB0022598D /* Foundation.framework */,
+				123327FD142379E70022598D /* SenTestingKit.framework */,
+				123327FF142379E70022598D /* Cocoa.framework */,
+				12332801142379E70022598D /* Other Frameworks */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -84,6 +114,36 @@
 			isa = PBXGroup;
 			children = (
 				123327EF142378BB0022598D /* JogoVelha-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		12332801142379E70022598D /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				12332802142379E70022598D /* AppKit.framework */,
+				12332803142379E70022598D /* CoreData.framework */,
+				12332804142379E70022598D /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		12332805142379E70022598D /* Test */ = {
+			isa = PBXGroup;
+			children = (
+				1233280B142379E70022598D /* Test.h */,
+				1233280D142379E70022598D /* Test.m */,
+				12332806142379E70022598D /* Supporting Files */,
+			);
+			path = Test;
+			sourceTree = "<group>";
+		};
+		12332806142379E70022598D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				12332807142379E70022598D /* Test-Info.plist */,
+				12332808142379E70022598D /* InfoPlist.strings */,
+				1233280F142379E70022598D /* Test-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -108,6 +168,24 @@
 			productReference = 123327E5142378BA0022598D /* JogoVelha */;
 			productType = "com.apple.product-type.tool";
 		};
+		123327FB142379E60022598D /* Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 12332810142379E70022598D /* Build configuration list for PBXNativeTarget "Test" */;
+			buildPhases = (
+				123327F7142379E60022598D /* Sources */,
+				123327F8142379E60022598D /* Frameworks */,
+				123327F9142379E60022598D /* Resources */,
+				123327FA142379E60022598D /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Test;
+			productName = Test;
+			productReference = 123327FC142379E70022598D /* Test.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -126,9 +204,38 @@
 			projectRoot = "";
 			targets = (
 				123327E4142378BA0022598D /* JogoVelha */,
+				123327FB142379E60022598D /* Test */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		123327F9142379E60022598D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1233280A142379E70022598D /* InfoPlist.strings in Resources */,
+				1233280C142379E70022598D /* Test.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		123327FA142379E60022598D /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		123327E1142378BA0022598D /* Sources */ = {
@@ -139,7 +246,26 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		123327F7142379E60022598D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1233280E142379E70022598D /* Test.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		12332808142379E70022598D /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				12332809142379E70022598D /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		123327F2142378BB0022598D /* Debug */ = {
@@ -205,6 +331,30 @@
 			};
 			name = Release;
 		};
+		12332811142379E70022598D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test/Test-Prefix.pch";
+				INFOPLIST_FILE = "Test/Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		12332812142379E70022598D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Test/Test-Prefix.pch";
+				INFOPLIST_FILE = "Test/Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -222,6 +372,14 @@
 			buildConfigurations = (
 				123327F5142378BB0022598D /* Debug */,
 				123327F6142378BB0022598D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		12332810142379E70022598D /* Build configuration list for PBXNativeTarget "Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				12332811142379E70022598D /* Debug */,
+				12332812142379E70022598D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
