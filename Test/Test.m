@@ -32,7 +32,7 @@
 
 - (void)testMarcarCasaVaziaComSucesso
 {
-    Tabuleiro *tabuleiro = [Tabulei]
+    Tabuleiro *tabuleiro = [[Tabuleiro alloc] init];
     BOOL resultado = [tabuleiro jogada: 1];
     STAssertTrue(resultado, nil);
 }
