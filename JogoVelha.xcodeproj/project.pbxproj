@@ -16,6 +16,7 @@
 		1233280C142379E70022598D /* Test.h in Resources */ = {isa = PBXBuildFile; fileRef = 1233280B142379E70022598D /* Test.h */; };
 		1233280E142379E70022598D /* Test.m in Sources */ = {isa = PBXBuildFile; fileRef = 1233280D142379E70022598D /* Test.m */; };
 		1233281514237E940022598D /* Tabuleiro.m in Sources */ = {isa = PBXBuildFile; fileRef = 1233281414237E940022598D /* Tabuleiro.m */; };
+		12332819142381560022598D /* Tabuleiro.m in Sources */ = {isa = PBXBuildFile; fileRef = 1233281414237E940022598D /* Tabuleiro.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -256,6 +257,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12332819142381560022598D /* Tabuleiro.m in Sources */,
 				1233280E142379E70022598D /* Test.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

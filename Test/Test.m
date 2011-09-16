@@ -31,11 +31,19 @@
 //    STFail(@"Unit tests are not implemented yet in Test");
 //}
 
+
 - (void)testMarcarCasaVaziaComSucesso
 {
     Tabuleiro *tabuleiro = [[Tabuleiro alloc] init];
     BOOL resultado = [tabuleiro jogada: 1];
     STAssertTrue(resultado, nil);
+}
+
+- (void)testVerificarSeTabuleiroIniciaVazio
+{
+    Tabuleiro *tabuleiro = [[Tabuleiro alloc] init];
+    
+    
 }
 
 @end

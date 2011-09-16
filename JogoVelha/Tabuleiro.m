@@ -22,7 +22,7 @@
 
 -(BOOL)jogada:(int)casa
 {
-    return false;
+    return true;
 }
 
 @end

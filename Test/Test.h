@@ -11,8 +11,8 @@
 @interface Test : SenTestCase
 
 
-//- (void)testVerificarSeTabuleiroIniciaVazio;
-//
+- (void)testVerificarSeTabuleiroIniciaVazio;
+
 //- (void)testFalharAoMarcarCasaInexistente;
 - (void)testMarcarCasaVaziaComSucesso;
 //
