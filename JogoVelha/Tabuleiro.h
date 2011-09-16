@@ -8,7 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface Tabuleiro : NSObject
+@interface Tabuleiro : NSObject{
+    BOOL casas[9];
+
+}
 
 - (BOOL)jogada: (int)casa;
 

@@ -22,7 +22,10 @@
 
 -(BOOL)jogada:(int)casa
 {
-    return true;
+    if (casas[casa-1])
+        return false;
+    else
+        casas[casa-1] = true;
 }
 
 -(BOOL)casaTaVazia:(int)casa
