@@ -7,6 +7,7 @@
 //
 
 #import "Test.h"
+#import "Tabuleiro.h"
 
 @implementation Test
 
@@ -24,11 +25,11 @@
     [super tearDown];
 }
 
-- (void)testExample
-{
-    
-    STFail(@"Unit tests are not implemented yet in Test");
-}
+//- (void)testExample
+//{
+//    
+//    STFail(@"Unit tests are not implemented yet in Test");
+//}
 
 - (void)testMarcarCasaVaziaComSucesso
 {

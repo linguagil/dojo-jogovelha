@@ -19,9 +19,10 @@
     
     return self;
 }
+
 -(BOOL)jogada:(int)casa
 {
-    
+    return false;
 }
 
 @end

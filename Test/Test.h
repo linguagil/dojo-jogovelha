@@ -11,24 +11,23 @@
 @interface Test : SenTestCase
 
 
-- (void)testVerificarSeTabuleiroIniciaVazio;
-
-- (void)testFalharAoMarcarCasaInexistente;
-
+//- (void)testVerificarSeTabuleiroIniciaVazio;
+//
+//- (void)testFalharAoMarcarCasaInexistente;
 - (void)testMarcarCasaVaziaComSucesso;
-
-- (void)testFalharAoMarcarCasaRepetida;
-
-- (void)testAlternanciaAutomaticaDeJogador;
-
-- (void)testPartidaEmAndamento;
-
-- (void)testJogador1Venceu;
-
-- (void)testJogador2Venceu;
-
-- (void)testEmpate;
-
-- (void)testFalharAoJogarAposPartidaFinalizada;
+//
+//- (void)testFalharAoMarcarCasaRepetida;
+//
+//- (void)testAlternanciaAutomaticaDeJogador;
+//
+//- (void)testPartidaEmAndamento;
+//
+//- (void)testJogador1Venceu;
+//
+//- (void)testJogador2Venceu;
+//
+//- (void)testEmpate;
+//
+//- (void)testFalharAoJogarAposPartidaFinalizada;
 
 @end
